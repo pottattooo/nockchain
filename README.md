@@ -18,6 +18,13 @@ sudo apt update
 sudo apt install clang llvm-dev libclang-dev
 ```
 
+Clone Nockchain repo
+```
+git clone https://github.com/zorp-corp/nockchain
+
+cd nockchain
+```
+
 Copy the example environment file and rename it to `.env`:
 ```
 cp .env_example .env
